@@ -1,0 +1,229 @@
+mits@mits-Lenovo-ideapad-300-15ISK:~$ sudo apt-get install git
+[sudo] password for mits: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.7.4-0ubuntu1.6).
+0 upgraded, 0 newly installed, 0 to remove and 569 not upgraded.
+mits@mits-Lenovo-ideapad-300-15ISK:~$ sudo apt install chromium-browser
+[sudo] password for mits: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  chromium-browser-l10n chromium-codecs-ffmpeg-extra
+Suggested packages:
+  webaccounts-chromium-extension unity-chromium-extension adobe-flashplugin
+The following NEW packages will be installed:
+  chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra
+0 upgraded, 3 newly installed, 0 to remove and 569 not upgraded.
+Need to get 62.6 MB of archives.
+After this operation, 235 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 chromium-codecs-ffmpeg-extra amd64 73.0.3683.75-0ubuntu0.16.04.1 [1,106 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 chromium-browser amd64 73.0.3683.75-0ubuntu0.16.04.1 [58.7 MB]
+Err:2 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 chromium-browser amd64 73.0.3683.75-0ubuntu0.16.04.1
+  Connection failed [IP: 91.189.88.162 80]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 chromium-browser amd64 73.0.3683.75-0ubuntu0.16.04.1 [58.7 MB]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 chromium-browser-l10n all 73.0.3683.75-0ubuntu0.16.04.1 [2,810 kB]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 chromium-browser amd64 73.0.3683.75-0ubuntu0.16.04.1 [58.7 MB]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 chromium-browser amd64 73.0.3683.75-0ubuntu0.16.04.1 [58.7 MB]
+Fetched 50.7 MB in 22min 44s (37.1 kB/s)                                       
+Selecting previously unselected package chromium-codecs-ffmpeg-extra.
+(Reading database ... 182522 files and directories currently installed.)
+Preparing to unpack .../chromium-codecs-ffmpeg-extra_73.0.3683.75-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking chromium-codecs-ffmpeg-extra (73.0.3683.75-0ubuntu0.16.04.1) ...
+Selecting previously unselected package chromium-browser.
+Preparing to unpack .../chromium-browser_73.0.3683.75-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking chromium-browser (73.0.3683.75-0ubuntu0.16.04.1) ...
+Selecting previously unselected package chromium-browser-l10n.
+Preparing to unpack .../chromium-browser-l10n_73.0.3683.75-0ubuntu0.16.04.1_all.deb ...
+Unpacking chromium-browser-l10n (73.0.3683.75-0ubuntu0.16.04.1) ...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.1) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160824-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up chromium-codecs-ffmpeg-extra (73.0.3683.75-0ubuntu0.16.04.1) ...
+Setting up chromium-browser (73.0.3683.75-0ubuntu0.16.04.1) ...
+Setting up chromium-browser-l10n (73.0.3683.75-0ubuntu0.16.04.1) ...
+mits@mits-Lenovo-ideapad-300-15ISK:~$ cd Desktop
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop$ git clone https://github.com/beemaabdulkader/vava.git
+Cloning into 'vava'...
+Username for 'https://github.com': beemaabdulkader
+Password for 'https://beemaabdulkader@github.com': 
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop$ cd vava/
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ vi beema.txt
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git add *
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git commit -m "hai"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mits@mits-Lenovo-ideapad-300-15ISK.(none)')
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git config - -gobal user.name"beemaabdulkader"
+error: key does not contain a section: -
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git config --global user.name"beemaabdulkader"
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git config --global user.email"abdulkaderbeema@gmail.com"
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git commit -m "hai"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mits@mits-Lenovo-ideapad-300-15ISK.(none)')
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$  git config --global user.name "beemaabdulkader"
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$  git config --global user.email "abdulkaderbeema@gmail.com"
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git commit -m "hai"
+[master (root-commit) becad16] hai
+ 1 file changed, 9 insertions(+)
+ create mode 100644 beema.txt
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git log
+commit becad16e10d7b0ac0d304e3bf1cf3b5521436e00
+Author: beemaabdulkader <abdulkaderbeema@gmail.com>
+Date:   Thu Mar 28 11:28:20 2019 +0530
+
+    hai
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': beemaabdulkader
+Password for 'https://beemaabdulkader@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/beemaabdulkader/vava.git/'
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': beemaabdulkader
+Password for 'https://beemaabdulkader@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 221 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/beemaabdulkader/vava.git
+ * [new branch]      master -> master
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git pull
+Username for 'https://github.com': beemaabdulkader
+Password for 'https://beemaabdulkader@github.com': 
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/beemaabdulkader/vava
+   becad16..c40d80c  master     -> origin/master
+Updating becad16..c40d80c
+Fast-forward
+ ponnu | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ponnu
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git add *mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git commit -m "happy"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git add hai
+fatal: pathspec 'hai' did not match any files
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git add hai.txt
+fatal: pathspec 'hai.txt' did not match any files
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git commit -m "add second file"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ 
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git revert HEAD
+[master a085367] Revert "created ponnu"
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 ponnu
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git log
+commit a085367e994e22d7874b5af3ccb13f3671330fed
+Author: beemaabdulkader <abdulkaderbeema@gmail.com>
+Date:   Thu Mar 28 11:43:51 2019 +0530
+
+    Revert "created ponnu"
+    
+    This reverts commit c40d80cd72aed4e6cdd0ed8e877b60080548f95b.
+
+commit c40d80cd72aed4e6cdd0ed8e877b60080548f95b
+Author: beemaabdulkader <36256406+beemaabdulkader@users.noreply.github.com>
+Date:   Thu Mar 28 11:34:03 2019 +0530
+
+    created ponnu
+
+commit becad16e10d7b0ac0d304e3bf1cf3b5521436e00
+Author: beemaabdulkader <abdulkaderbeema@gmail.com>
+Date:   Thu Mar 28 11:28:20 2019 +0530
+
+    hai
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ ^C
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ commit becad16e10d7b0ac0d304e3bf1cf3b5521436e00
+commit: command not found
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git revert commit becad16e10d7b0ac0d304e3bf1cf3b5521436e00
+fatal: bad revision 'commit'
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git revert  becad16e10d7b0ac0d304e3bf1cf3b5521436e00
+[master 20969a2] Revert "hai"
+ 1 file changed, 9 deletions(-)
+ delete mode 100644 beema.txt
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ git init
+Reinitialized existing Git repository in /home/mits/Desktop/vava/.git/
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ ^C
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/vava$ 
+

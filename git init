@@ -1,0 +1,24 @@
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/bee$ git init
+Initialized empty Git repository in /home/mits/Desktop/bee/.git/
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/bee$ git remote add origin https://github.com/beemaabdulkader/beem.git
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/bee$ git add *
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/bee$ git commit -m "beautiful"
+[master (root-commit) 417dd22] beautiful
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file.txt
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/bee$ git push -u origin master
+Username for 'https://github.com': beemabdulkader             
+Password for 'https://beemabdulkader@github.com': 
+[1]+  Stopped                 git push -u origin master
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/bee$ git push -u origin master
+Username for 'https://github.com': beemaabdulkader
+Password for 'https://beemaabdulkader@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 211 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/beemaabdulkader/beem.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+mits@mits-Lenovo-ideapad-300-15ISK:~/Desktop/bee$ 
+
+
